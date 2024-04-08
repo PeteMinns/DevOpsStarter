@@ -7,19 +7,19 @@
     <p class="lead">Just another to-do app.</p>
   </div>
 
-  <from action="add Todo" method="post">
+  <form action="add_new_items" method="post">
     <label for="name">Enter New Todo: </label>
     <input type="text" name="title" required />
     <input type="submit" value="Add New Todo" />
-    </from>
+  </form>
 
   <div class="row">
     <div class="col-md-12">
       <h2>Items</h2>
       <ul class="list-group mb-4">
-        {% for item in items %}
-          <1i>{{ item.id }} - {{ item.title }} - {{ item.status }}</1i>
-      {% endfor %}
+        {% for item in my_items %}
+          <li>{{ item.id }} - {{ item.title }} - {{ item.status }}</li>
+        {% endfor %}
       </ul>
     </div>
   </div>
