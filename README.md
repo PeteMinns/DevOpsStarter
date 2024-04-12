@@ -57,3 +57,7 @@ Press CTRL+C to quit
  * Debugger PIN: 113-666-066
 ```
 Now visit [`http://localhost:5000/`](http://localhost:5000/) in your web browser to view the app.
+
+## Trello
+
+You will need to add Trello related environment variables into the `.env` file. [Follow the guidance here to get those](https://project-exercises.devops.corndel.com/exercises/m2_exercise#step-2-create-a-trello-account-and-api-credentials).
